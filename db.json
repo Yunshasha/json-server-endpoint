@@ -1,8 +1,193 @@
 {
-  "user": {
-   "id": "1",
-    "name": "haha",
-    "age": 18
-  }
+
+   "data": [
+
+       {
+
+           "tab_label": "nome tab_1",
+
+           "view_type": "chart_line",
+
+           "view_data": {
+
+               "labels": ["January", "February", "March", "April", "May", "June", "July"],
+
+               "datasets": [
+
+                   {
+
+                       "label": "My First dataset",
+
+                       "data": [65, 59, 80, 81, 56, 55, 40],
+
+                       "fill": false,
+
+                       "backgroundColor": "rgba(75, 192, 192, 0.2)",
+
+                       "borderColor": "rgba(75, 192, 192, 1)"
+
+                   }
+
+               ]
+
+           }
+
+       },
+
+       {
+
+           "tab_label": "nome tab_2",
+
+           "view_type": "chart_bar",
+
+           "view_data": {
+
+               "labels": ["Fancoil 1", "Fancoil 2", "Fancoil 3", "Fancoil 4", "Fancoil 5", "Fancoil 6"],
+
+               "datasets": [
+
+                   {
+
+                       "label": "Winter set point",
+
+                       "data": [20, 15, 25, 10, 15, 20],
+
+                       "backgroundColor": "rgba(173, 216, 230, 0.6)",
+
+                       "borderColor": "rgba(173, 216, 230, 1)",
+
+                       "borderWidth": 1
+
+                   },
+
+                   {
+
+                       "label": "Summer set point",
+
+                       "data": [25, 20, 20, 25, 20, 25],
+
+                       "backgroundColor": "rgba(0, 255, 0, 0.6)",
+
+                       "borderColor": "rgba(0, 255, 0, 1)",
+
+                       "borderWidth": 1
+
+                   }
+
+               ]
+
+           }
+
+       },
+
+       {
+
+           "tab_label": "nome tab_3",
+
+           "view_type": "chart_doughnut",
+
+           "view_data": {
+
+               "labels": ["Fancoil 1", "Fancoil 2", "Fancoil 3", "Fancoil 4", "Fancoil 5", "Fancoil 6"],
+
+               "datasets": [
+
+                   {
+
+                       "label": "Fancoil",
+
+                       "data": [20, 20, 20, 20, 20, 20],
+
+                       "backgroundColor": [
+
+                           "rgba(173, 216, 230, 0.6)",
+
+                           "rgba(0, 255, 0, 0.6)",
+
+                           "rgba(0, 0, 255, 0.6)",
+
+                           "rgba(255, 0, 0, 0.6)",
+
+                           "rgba(75, 192, 192, 0.6)",
+
+                           "rgba(153, 102, 255, 0.6)"
+
+                       ],
+
+                       "borderColor": [
+
+                           "rgba(173, 216, 230, 1)",
+
+                           "rgba(0, 255, 0, 1)",
+
+                           "rgba(0, 0, 255, 1)",
+
+                           "rgba(255, 0, 0, 1)",
+
+                           "rgba(75, 192, 192, 1)",
+
+                           "rgba(153, 102, 255, 1)"
+
+                       ],
+
+                       "borderWidth": 1
+
+                   }
+
+               ]
+
+           }
+
+       },
+
+       {
+
+           "tab_label": "nome tab_4",
+
+           "view_type": "card",
+
+           "view_data": [
+
+               {
+
+                   "title": "titolo 1",
+
+                   "sub_title": "sotto titolo 1",
+
+                   "value": 2,
+
+                   "udm": "unità di misura"
+
+               },
+
+               {
+
+                   "title": "titolo 2",
+
+                   "sub_title": "sotto titolo 2",
+
+                   "value": 2,
+
+                   "udm": "unità di misura"
+
+               },
+
+               {
+
+                   "title": "titolo 3",
+
+                   "sub_title": "sotto titolo 3",
+
+                   "value": 2,
+
+                   "udm": "unità di misura"
+
+               }
+
+           ]
+
+       }
+
+   ]
 
 }
